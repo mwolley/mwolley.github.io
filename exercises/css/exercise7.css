@@ -1,0 +1,44 @@
+body {
+    color: #400986;
+    background-color: #F2D3FF;
+}
+
+p {
+    border-style: dashed;
+    border-width: 1px; 
+    border-color: lightgray;
+    background-color: #FFFFFF ;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.18em;
+}
+
+a.button:link {
+    color: blueviolet ;
+    border: 1px solid blue ;
+    background-color: white ;
+    padding: 10px;
+    position: relative ;
+    bottom: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.button:active {
+    color: aliceblue; }
+
+a.button:visited {
+    color: #1A0268   ; 
+    border: 1px solid ; 
+    background-color: #E8E0F9     ;
+}
+
+a.button:hover {
+    color: darkcyan;
+    border: 1px solid darkcyan;
+    background-color: #e0eced;  
+}

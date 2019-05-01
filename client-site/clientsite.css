@@ -1,0 +1,167 @@
+header {
+    position: fixed;
+    font-size: 40px ;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: black ;
+    text-align: right;
+    font-family: 'Inconsolata', monospace; 
+    background-color:#FEFFD8; 
+
+}
+
+body {
+    position: relative ;
+    background-color: #FEFFD8 ;
+    width: relative ;
+    font-size: 20px ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    font-family: 'Inconsolata', monospace; 
+    margin: 0;
+}
+
+/*NAVIGATION*/
+
+
+a.button:link {
+    color: black;
+    padding: 15px 32px;
+    position: center ;
+    bottom: 19px;
+    border-radius: 10px;
+    text-align: center ;
+    font-size: 16px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+.button {
+  
+    border: none;
+    padding: 10px 20px;
+    text-align: center ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px ;
+    font-family: 'Inconsolata', monospace; 
+    
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    float: left;
+    top: 0;
+    display: block ;
+    padding: 14px 16px;
+    color:#FEFFD8;
+}
+
+ul {
+    grid-template-columns: repeat(5, 1fr);
+    font-family: 'Inconsolata', monospace; 
+}
+
+
+li {
+    display: block ;
+    font-family: 'Inconsolata', monospace; 
+    padding: .5px ;   
+}
+
+li > li {
+    display: block;
+}
+
+li.navbutton {
+    display: inline;
+    color: white;
+    background-color: #FEFFD8 ;
+    
+}
+
+.hours {
+    margin-top: 30px ;
+    padding: .5px ;
+    padding-top: 20px ;
+    border-radius: .5 px ;
+    grid-area: hours ;
+    font-family: 'Inconsolata', monospace; 
+    margin-bottom: .5px;
+}
+
+.menu {
+    padding: .5px ;
+    border-radius: .5px ;
+    grid-area: menu ;
+    text-align: right;
+    font-family: 'Inconsolata', monospace; 
+}
+
+.payments {
+    padding: .5px ;
+    border-radius: .5px ;
+    grid-area: payments ;
+    text-align: left; 
+    font-family: 'Inconsolata', monospace; 
+}
+
+.imageone {
+    float:right;
+}
+
+.imagetwo {
+    float:left;
+}
+
+.imagethree {
+    float:right;
+}
+
+.imagefour {
+    float:left;
+}
+
+.aboutus {
+    background-color: #FEFFD8;
+    padding: .5px ;
+    border-radius: .5px ;
+    grid-area: aboutus ;
+    text-align: right; 
+    font-family: 'Inconsolata', monospace; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FEFFD8;
+    color: black ;
+    text-align: center;
+    font-family: 'Inconsolata', monospace; 
+}
+
+.gridwrapper {
+        font-family: Arial;
+        padding-top: 50px;
+        color: black ;
+        display: grid;
+        grid-auto-columns:  1fr 1fr;
+        grid-auto-rows: 1fr 1;
+        grid-gap: 20px;
+        grid-template-areas: 
+            "hours "
+            "menu "
+            "payments"
+            "aboutus"
+}

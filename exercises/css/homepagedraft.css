@@ -1,0 +1,107 @@
+body {
+    color: #400986;
+    background-color: #F2D3FF;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+p {
+    border-style: none;
+    border-width: .5px; 
+    border-color: lightgray;
+    background-color: #FFFFFF ;
+    padding: 20px;
+    
+}
+
+ul {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+li {
+    display: block ;
+    font-family: 'Quicksand',sans-serif;
+    padding: 5px ;
+    
+}
+
+li > li {
+    display: block;
+}
+
+h1  {
+    color: #30075F;
+    letter-spacing: 0.2em;
+    padding: 10px; 
+    font-size: 24px; 
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    
+}
+
+h2 {
+    color: #30075F; 
+    letter-spacing: 0.2em;
+    padding: 5px; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 18px; 
+}
+
+img { 
+    display: block;
+    margin: auto;
+    align-content: center ;
+    
+}
+
+div {
+    text-align: center ;
+}
+ 
+
+/*NAVIGATION*/
+
+
+a.button:link {
+    color: blueviolet ;
+    border: 1px solid blue ;
+    background-color: #E5DEFF;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center ;
+    font-size: 16px;
+}
+
+a.button:visited {
+    color: #1A0268   ; 
+    border: 1px solid ; 
+    background-color: #E8E0F9     ;
+}
+
+a.button:hover {
+    color: darkcyan;
+    border: 1px solid darkcyan;
+    background-color: #e0eced;  
+}
+
+.button {
+  
+  border: none;
+  padding: 15px 0px;
+  text-align: center ;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.first {
+    padding-left: 0px;
+    margin-left: -40px;
+}
+
+
+
+    

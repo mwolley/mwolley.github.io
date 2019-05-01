@@ -1,0 +1,24 @@
+ body {
+            font-family: Arial;
+            background-color: #B6F7F4  ;   }
+        h1, h2 { color: #5D5478  ;
+            background-color: #B6F7F4  ;  
+            padding: 20px; 
+            letter-spacing: .2em;
+            font-family: 'Ubuntu', sans-serif; }
+
+        p { 
+            padding-left: 20px; 
+            padding-right: 20px; 
+            line-height: 1.6em;
+            font-family: "Courier New" , Courier , monospace ; }
+a:link {
+    color: mediumaquamarine
+    text-decoration: none; }
+a:visited {
+    color:mediumpurple ; }
+a:hover {
+    color: #8D8C8D ; 
+    text-decoration: : underline ; }
+a:active {
+    color: darkblue; }

@@ -1,0 +1,11 @@
+ body {
+            font-family: Arial;
+            background-color: #B6F7F4  ;   }
+        h1, h2 { color: #5D5478  ;
+            background-color: #B6F7F4  ;  
+            padding: 20px; }
+        h4 { color: #5D5478  ;
+            background-color: #B6F7F4  ; }
+        p { 
+            padding-left: 20px; 
+            padding-right: 20px; }
